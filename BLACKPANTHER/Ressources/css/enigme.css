@@ -1,0 +1,486 @@
+
+body {
+     background: radial-gradient(126.67% 350.28% at -21.35% 0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 100%, rgba(2, 23, 64, 0) 100%);
+     min-height: 100vh;
+     overflow-x: hidden;
+ }
+ #logo-souris {
+    position: fixed;
+    opacity: 0; 
+    pointer-events: none; 
+  }
+  
+h1 {
+    color: white;
+    font-family: 'Beyno', sans-serif;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    white-space: nowrap;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+nav img {
+    margin-top: 30px;
+    margin-left: 150px;
+}
+nav ul {
+    margin-top: 30px;
+    margin-left: 700px;
+    list-style: none;
+    display: flex;
+    column-gap: 60px;
+}
+nav ul a {
+    color: white;
+    text-decoration: none;
+    font-family: beyno , sans-serif;
+}
+nav ul a span {
+    color: rgba(238, 130, 238, 0.68);
+    text-decoration: underline;
+}
+.ligne-gauche, .ligne-droite {
+    position: fixed;
+    top: 0;
+    width: 2.5px;
+    background-color: rgba(237, 115, 237, 0.221);
+    transition: height 1s ease-in-out;
+  
+  }
+  
+  .ligne-gauche {
+    left: 2%;
+    height:0;
+  }
+  
+  .ligne-droite {
+    left: 3.5%;
+    height: 0;
+  }
+  
+  .logo {
+    position: fixed;
+    bottom: 280px;
+    display: grid;
+    margin-left: 35px;
+    gap: 20px;
+  }
+#enigme .pantherenigme1 {
+    background-image: url(../3_Page_Enigme/Pantherenigme1.png);
+    width: 1200px;
+    height: 1000px;
+    margin-top: -200px;
+    background-size: contain;
+}
+#enigme h1 {
+    position: relative;
+    margin-left: 900px;
+    top: -600px;
+    font-size: 60px;
+    color: rgba(249, 137, 249, 0.215);
+}
+#enigme .Pantherenigme2 {
+    margin-left: 750px;
+    margin-top: -650px;
+}
+#enigme .para {
+    color: white;
+    font-family: cantarell, sans-serif;
+    font-size: 10px;
+    margin-left: 870px;
+    position: relative;
+    top: -350px;
+
+}
+#enigme #Pantherenigme3 {
+    margin-left: 980px;
+    margin-top: -350px;
+}
+#enigme1 h2 {
+    text-decoration: underline;
+    color: rgba(249, 137, 249, 0.215);
+    margin-left: 100px;
+    width: 10px;
+    height: 10px;
+    white-space: nowrap;
+}
+#enigme1 h2 span {
+    font-family: beyno, sans-serif;
+}
+#enigme1 .p {
+    color: white;
+    font-family: cantarell, sans-serif;
+    font-size: 12px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#enigme1 .citation {
+    color: rgba(249, 137, 249, 0.215);
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: wakanda forever,sans-serif;
+    word-spacing: 15px;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+#enigme1 h4 {
+    color: white;
+    font-family: cantarell, sans-serif;
+    font-size: 12px;
+    margin-left: 100px;
+}
+#enigme1 #reponse {
+    margin-left: 100px;
+    background: none;
+    width: 520px;
+    height: 56px;
+    border-color: pink;
+    border-radius: 38px;
+}
+#reponse::placeholder {
+    color: pink;
+    position: relative;
+    left: 50px;
+    font-size: 1.5rem;
+}
+#enigme1 #btn1 {
+    margin-left: 270px;
+    margin-top: 70px;
+    width: 174px;
+    height: 54px;
+    color: #11213F;
+    font-weight: 700;
+    border-radius: 38px;
+    background: pink;
+    border: none;
+}
+#enigme1 #btn1:hover {
+    box-shadow: 0 0 20px #F2CEF2;
+}
+#enigme1 .image {
+    margin-left: 810px;
+    margin-top: -400px;
+}
+#enigme1 #guide {
+    color: white;
+    margin-left: 870px;
+    margin-top: -300px;
+}
+#enigme1 #guide p {
+    margin-left: 18px;
+    font-family: cantarell,sans-serif;
+    font-size: 12px;
+}
+#enigme1 .alphabet {
+font-size: 15px;
+ }
+ #enigme1 .alphabet span {
+    font-family: wakanda forever,sans-serif;
+ }
+ #enigme2 h2 {
+    text-decoration: underline;
+    color: rgba(249, 137, 249, 0.215);
+    margin-left: 100px;
+    margin-top: 300px;
+    width: 10px;
+    height: 10px;
+    white-space: nowrap;
+}
+#enigme2 h2 span {
+    font-family: beyno, sans-serif;
+}
+#enigme2 #prh {
+    color: white;
+    font-family: cantarell, sans-serif;
+    font-size: 12px;
+    margin-left: 100px;
+}
+#enigme2 #response {
+    margin-left: 5px;
+    background: none;
+    width: 520px;
+    height: 56px;
+    border-color: pink;
+    border-radius: 38px;
+}
+#response::placeholder {
+    color: pink;
+    position: relative;
+    left: 50px;
+    font-size: 1.5rem;
+}
+#enigme2 #btn2 {
+    margin-left: 170px;
+    margin-top: 70px;
+    width: 174px;
+    height: 54px;
+    color: #11213F;
+    font-weight: 700;
+    border-radius: 38px;
+    background: pink;
+    border: none;
+}
+#enigme2 #btn2:hover {
+    box-shadow: 0 0 20px #F2CEF2;
+}
+#enigme2 .image {
+    margin-left: 810px;
+    margin-top: -400px;
+}
+#enigme2 #quizz p {
+    position: relative;
+    top: -300px;
+    margin-left: 880px;
+    font-family: cantarell,sans-serif;
+    font-size: 12px;
+     color: white;
+    }
+    #enigme2 #quizz span {
+        margin-left: 170px;
+ }
+ #enigme3 h2 {
+    text-decoration: underline;
+    color: rgba(249, 137, 249, 0.215);
+    margin-left: 100px;
+    margin-top: 100px;
+}
+#enigme3 h2 span {
+    font-family: beyno, sans-serif;
+}
+#enigme3 .p_number {
+    color: white;
+    font-family: canterell, sans-serif;
+    font-size: 12px;
+    margin-left: 100px;
+}
+#enigme3 h4 {
+    color: white;
+    font-family: cantarell, sans-serif;
+    font-size: 12px;
+    margin-left: 100px;
+}
+#enigme3 #answer {
+    margin-left: 100px;
+    background: none;
+    width: 520px;
+    height: 56px;
+    border-color: pink;
+    border-radius: 38px;
+}
+#answer::placeholder {
+    color: pink;
+    position: relative;
+    left: 50px;
+    font-size: 1.5rem;
+
+}
+#answer,#reponse{
+    color:white;
+    font-size: 18px;
+    text-align: center;
+}
+#enigme3 #btn3 {
+    margin-left: 270px;
+    margin-top: 70px;
+    width: 174px;
+    height: 54px;
+    color: #11213F;
+    font-weight: 700;
+    border-radius: 38px;
+    background: pink;
+    border: none;
+    
+}
+#enigme3 #btn3:hover {
+    box-shadow: 0 0 20px #F2CEF2;
+}
+#enigme3 .image {
+    margin-left: 810px;
+    margin-top: -400px;
+}
+#enigme3 #quizz p {
+    position: relative;
+    top: -300px;
+    margin-left: 880px;
+    font-family: cantarell,sans-serif;
+    font-size: 12px;
+     color: white;
+    }
+    #enigme3 #quizz span {
+        margin-left: 170px;
+ }
+ #enigme2, #enigme3 {
+    display: none;
+}
+#first-pop-up, #second-pop-up {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 26, 83, 0.735);
+    z-index: 1;
+}
+ #pop-up {
+        width: 800px; 
+        height: 500px;
+        background: linear-gradient(to bottom, rgba(61, 45, 166, 1), rgba(2, 23, 64, 1));
+        filter: blur(10px); 
+        margin-left: auto;
+        margin-right: auto;
+ }
+.question-suivante {
+    color: white;
+    width: 500px; 
+    height: 300px;
+    background: linear-gradient(to bottom, rgba(158, 145, 183, 1), rgba(61, 45, 166, 0.715));
+    box-shadow: 0px 3.45px 3.45px rgba(0, 0, 0, 0.04);
+    border: 1px solid transparent;
+   background-clip: content-box;
+   border-radius: 20px;
+   position: relative;
+   margin-top: -400px;
+   margin-left: 505px;
+ }
+ .question-suivante h3 {
+    padding-left: 200px;
+ }
+ .question-suivante p {
+    padding-left: 100px;
+ }
+ .question-suivante p span {
+    padding-left: 30px;
+ }
+ .question-suivante button {
+    margin-left: 150px;
+    margin-top: 50px;
+    background: pink;
+    border-color: pink;
+    width: 174px;
+    height: 54px;
+    border-radius: 38px;
+ }
+ .question-suivante button:hover{
+    box-shadow: 0 0 20px #F2CEF2;
+ }
+ #pop-up-fin {
+    width: 800px; 
+    height: 500px;
+    background: linear-gradient(to bottom, rgba(61, 45, 166, 1), rgba(2, 23, 64, 1));
+    filter: blur(10px); 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+ }
+ .pop-up-revenir-accueil {
+    color: white;
+    width: 500px; 
+    height: 300px;
+    background: linear-gradient(to bottom, rgba(158, 145, 183, 1), rgba(61, 45, 166, 0.715));
+    box-shadow: 0px 3.45px 3.45px rgba(0, 0, 0, 0.04);
+    border: 1px solid transparent;
+   background-clip: content-box;
+   border-radius: 20px;
+   position: relative;
+   margin-top: -400px;
+   margin-left: 505px;
+ }
+ .pop-up-revenir-accueil p {
+    padding-left: 170px;
+    text-transform: uppercase;
+ }
+ .pop-up-revenir-accueil p span {
+    padding-left: 40px;
+ }
+ .pop-up-revenir-accueil button {
+    margin-left: 150px;
+    margin-top: 50px;
+    background: pink;
+    border-color: pink;
+    width: 174px;
+    height: 54px;
+    border-radius: 38px;
+    text-transform: uppercase;
+ }
+ .pop-up-revenir-accueil button:hover{
+    box-shadow: 0 0 20px #F2CEF2;
+ }
+ .pop-up-revenir-accueil button a {
+    text-decoration: none;
+    color: #0B0B0B;
+ }
+ .compte-rebour {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    font-size: 1.5rem;
+    padding-top: 30px;
+}
+#coming-soon {
+    padding-left: 180px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+}
+ footer {
+    
+    background: linear-gradient(to bottom, #1d1459 0%, #000818e7 100%);
+    height: 770px;
+    width: 1511px;
+    margin-top: -100px;
+    color: white;
+    
+}
+.img_footer {
+    margin-top: 250px;
+    margin-left: 300px;
+    padding-top: 200px;
+}
+.marvel_sayna {
+    margin-top: -230px;
+    margin-left: 400px;
+}
+.all_footer {
+    margin-left: 750px;
+    margin-top: -250px;
+}
+footer h4 {
+    display: flex;
+    white-space: nowrap;
+    letter-spacing: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    display: grid;
+}
+
+footer #contact {
+    margin-left: 300px;
+    margin-top: -100px;
+}
+.icon {
+    display: flex;
+    column-gap: 30px;
+}
+footer ul {
+    margin-top: 150px;
+    display: flex;
+    white-space: nowrap;
+    column-gap: 20px;
+    
+}
+/* une animation fade in  */
+.reveal {
+    transform: translateX(-30px);
+    opacity: 0;
+}
+.reveal.active{
+    transform: translateX(0);
+    opacity: 1;
+    transition: 0.5s cubic-bezier(.5, 0, 0, 1)
+}

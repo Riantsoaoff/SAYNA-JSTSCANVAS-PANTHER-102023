@@ -1,0 +1,237 @@
+
+body {
+     width: 20px;
+     height: 300vh;
+    background: radial-gradient(at top right, #11213F, #0B0B0B 100%, #021740 100%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 1) 100%);
+    overflow-x: hidden;
+}
+#logo-souris {
+    position: fixed;
+    opacity: 0; 
+    pointer-events: none; 
+  }
+nav {
+    display: flex;
+    align-items: center;
+}
+nav img {
+    margin-top: 30px;
+    margin-left: 150px;
+}
+nav ul {
+    margin-top: 30px;
+    margin-left: 700px;
+    list-style: none;
+    display: flex;
+    column-gap: 60px;
+}
+nav ul a {
+    color: white;
+    text-decoration: none;
+    font-family: beyno , sans-serif;
+}
+nav ul a span {
+    color: rgba(238, 130, 238, 0.68);
+    text-decoration: underline;
+}
+.ligne-gauche, .ligne-droite {
+    position: fixed;
+    top: 0;
+    width: 2.5px;
+    background-color: rgba(237, 115, 237, 0.221);
+    transition: height 1s ease-in-out;
+  
+  }
+  
+  .ligne-gauche {
+    left: 2%;
+    height:0;
+  }
+  
+  .ligne-droite {
+    left: 3.5%;
+    height: 0;
+  }
+  
+  .logo {
+    position: fixed;
+    bottom: 280px;
+    display: grid;
+    margin-left: 35px;
+    gap: 20px;
+  }
+section {
+    color: white;
+}
+section #img {
+    background-image: url(../2_Wakanda_page/Pantherwakanda1.png);
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    width: 1611px;
+    position: relative;
+    top: -20px;
+    right: 100px;
+}
+.h1_p {
+    position: relative;
+    margin-left: 150px;
+    margin-top: -700px;
+    display: grid;
+}
+h1 {
+    display: flex;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-family: beyno, sans-serif;
+    font-size: 50px;
+    color: rgba(249, 137, 249, 0.215);
+    height: 10px;
+    width: 10px;
+}
+h2 {
+    white-space: nowrap;
+    font-family: wakanda forever, sans-serif;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+    color: rgb(4, 83, 116);
+    width: 10px;
+    height: 10px;
+
+}
+p {
+    display:flex;
+    white-space: nowrap;
+    font-family: cantarall, sans-serif;
+    font-size: 12px;
+}
+#img_presentation .img {
+    background-image: url(../2_Wakanda_page/Pantherwakanda2.png);
+    background-position: center;
+    height: 1500px;
+    width: 1500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 90px;
+}
+#img_presentation h3 {
+    font-family: beyno,sans-serif;
+    color: rgba(249, 137, 249, 0.215);
+}
+.h3_p {
+    margin-top: -1100px;
+    margin-left: 100px;
+    
+}
+.link {
+    margin-left: 50px;
+    margin-top: 100px;
+    background:  rgb(72, 46, 244);
+    height: 200px;
+    width: 500px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+#presentation_film {
+    margin-left: 50px;
+    margin-top: 80px;
+}
+#presentation_film h3 {
+    display: flex;
+    white-space: nowrap;
+    word-spacing: 5px;
+}
+ #introduction .together {
+    margin-left: 800px;
+    margin-top: -1300px;
+    display: grid;
+
+}
+#introduction h3 {
+    font-family: beyno, sans-serif;
+    white-space: nowrap;
+    color:rgba(249, 137, 249, 0.215);
+}
+
+#all {
+    margin-left: 800px;
+}
+#picture {
+    margin-left: 760px; 
+    width: 649px;
+    height: 362px;
+}
+#picture:hover {
+width: 831px;
+height: 464px;
+}
+.anectodes_p {
+    margin-left: 790px; 
+    margin-top: -50px;
+}
+
+footer {
+    
+    background: linear-gradient(to bottom, #1d1459 0%, #000818e7 100%);
+    height: 700px;
+    width: 1610px;
+    margin-top: -100px;
+    position: relative;
+    right: 100px;
+}
+.img_footer {
+    margin-top: 250px;
+    margin-left: 300px;
+    padding-top: 200px;
+}
+.marvel_sayna {
+    margin-top: -230px;
+    margin-left: 400px;
+}
+.all_footer {
+    margin-left: 750px;
+    margin-top: -250px;
+}
+footer h4 {
+    display: flex;
+    white-space: nowrap;
+    letter-spacing: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer a {
+    display: grid;
+    color: white;
+    text-decoration: none;
+}
+
+footer #contact {
+    margin-left: 400px;
+    margin-top: -170px;
+}
+.icon {
+    display: flex;
+    column-gap: 30px;
+}
+footer ul {
+    margin-top: 150px;
+    display: flex;
+    white-space: nowrap;
+    column-gap: 20px;
+    
+}
+/* une animation fade in  */
+.reveal {
+    transform: translateX(-30px);
+    opacity: 0;
+}
+.reveal.active{
+    transform: translateX(0);
+    opacity: 1;
+    transition: 0.5s cubic-bezier(.5, 0, 0, 1)
+}
+
+
+
+
+
+
